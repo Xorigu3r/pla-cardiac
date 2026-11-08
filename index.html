@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A0B0E">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Pla Cardíac">
+<meta name="application-name" content="Pla Cardíac">
+<meta name="description" content="Pla d'exercici per a la rehabilitació cardíaca a partir de les pautes del cardiòleg: pla setmanal, guies d'exercici, seguiment i informe.">
+<title>Pla Cardíac</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icons/favicon-64.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+  <header class="brand">
+    <img src="icons/mark-256.png" alt="" class="mark">
+    <div class="word"><b>XORIGUER</b> <span>PLA CARDÍAC</span></div>
+  </header>
+  <div id="userbar" class="userbar"></div>
+  <div id="notice"></div>
+  <main id="view"></main>
+  <nav class="tabs" id="tabs">
+    <button data-tab="pla"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg><span>Pla</span></button>
+    <button data-tab="pautes"><svg viewBox="0 0 24 24"><path d="M9 4h6v3H9zM7 5H5v15h14V5h-2M8 12h8M8 16h5"/></svg><span>Pautes</span></button>
+    <button data-tab="seguiment"><svg viewBox="0 0 24 24"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg><span>Seguiment</span></button>
+    <button data-tab="evolucio"><svg viewBox="0 0 24 24"><path d="M4 20V4M4 20h16M8 15l4-4 3 3 5-6"/></svg><span>Evolució</span></button>
+    <button data-tab="mes"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg><span>Més</span></button>
+  </nav>
+</div>
+<div id="modal" class="modal hidden"></div>
+<div id="toast" class="toast hidden"></div>
+<section id="report"></section>
+<script src="js/dades.js"></script>
+<script src="js/logica.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
