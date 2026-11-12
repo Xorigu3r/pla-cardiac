@@ -3,7 +3,7 @@
 const D = {
  "APP_NOM": "Pla Cardíac",
  "VERSIO_PROGRAMA": "1.1.1",
- "CREDIT": "Creat amb IA per Xavier Musté",
+ "CREDIT": "Creat per Xavier Musté",
  "ETIQUETES_RISC": {
   "esternotomia": "Càrrega amb els braços (precaucions post-esternotomia)",
   "isometric": "Exercicis isomètrics (aguantar la postura)",

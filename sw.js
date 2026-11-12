@@ -1,6 +1,6 @@
 // Pla Cardíac · funcionament sense connexió
 // Quan canviïs l'app, puja el número de versió perquè els mòbils agafin la nova.
-const VERSION = "placardiac-v2";
+const VERSION = "placardiac-v3";
 const APP = [
   "./",
   "index.html",

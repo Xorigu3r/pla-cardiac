@@ -2,7 +2,7 @@
 
 Versió web (PWA) del programa d'escriptori **Pla Cardíac**: pla d'exercici per a la rehabilitació cardíaca
 a partir de les pautes del cardiòleg, guies d'exercici amb dibuixos, seguiment de sessions, evolució,
-valoracions, guia educativa i informes en PDF. Creat amb IA per Xavier Musté.
+valoracions, guia educativa i informes en PDF. Creat per Xavier Musté.
 
 Publicada a **https://xorigu3r.github.io/pla-cardiac/** (GitHub Pages, branca `main`).
 
