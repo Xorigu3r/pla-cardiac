@@ -1,11 +1,11 @@
 // Pla Cardíac · funcionament sense connexió
 // Quan canviïs l'app, puja el número de versió perquè els mòbils agafin la nova.
-const VERSION = "placardiac-v1";
+const VERSION = "placardiac-v2";
 const APP = [
   "./",
   "index.html",
   "manifest.json",
-  "css/app.css",
+  "css/app.css", "marca/marca.css", "marca/Montserrat-ExtraBold.ttf",
   "js/dades.js",
   "js/logica.js",
   "js/app.js",

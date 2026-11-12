@@ -12,7 +12,7 @@
   :root{--bg:#0d0e11;--card:#181a1f;--txt:#f1ede4;--muted:#9a9da6;--line:#2a2d34;--soft:#22252b;--sys:#ef6b5c;--dia:#5aa2e0;--pols:#a0a3aa;--orange-d:#FFA82E}
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html,body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.4 "Plus Jakarta Sans",system-ui,-apple-system,sans-serif;overscroll-behavior:none}
+html,body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.4 "Segoe UI","Segoe UI Variable",Roboto,system-ui,-apple-system,sans-serif;overscroll-behavior:none}
 button,input,select,textarea{font:inherit;color:inherit}
 button{border:0;cursor:pointer;background:none}
 .hidden{display:none!important}
@@ -222,3 +222,7 @@ textarea{min-height:80px;resize:vertical}
   #report .landscape{font-size:9pt}
   #report .bad td{background:#F8C9C9}
 }
+
+/* Marca (12/11/2026): el subtítol va al costat del rètol, amb menys espai entre lletres */
+.brand .word{display:flex;align-items:baseline;gap:8px;min-width:0}
+.brand .word .xm-sub{letter-spacing:.14em;font-size:.72em;margin-left:0;overflow:hidden;text-overflow:ellipsis}
