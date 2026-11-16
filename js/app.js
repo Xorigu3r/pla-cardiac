@@ -438,7 +438,8 @@ function vDades() {
   <section class="card"><h2>Còpia de seguretat</h2><div class="stack">
     <button class="btn" id="bJson">Desar còpia (.json)</button>
     <label class="btn sec" for="fImp" style="cursor:pointer">Restaurar una còpia…</label>
-    <input type="file" id="fImp" accept=".json,application/json" class="hidden"></div>
+    <input type="file" id="fImp" accept=".json,application/json" class="hidden">
+    <div id="xoriguer-actualitza" data-classe="btn sec"></div></div>
     <p class="sub" style="margin:10px 0 0">És el mateix format que el programa d'escriptori (Documents\\PlaCardiac\\dades.json): pots passar les dades en tots dos sentits.</p></section>
   <section class="card"><h2>Còpies automàtiques <small>${cp.length}</small></h2>
     ${cp.length ? cp.map(c => `<div class="urow"><span>${L.dataCatala(c)}</span><button class="btn sec small" data-rest="${c}">Restaurar</button></div>`).join("") : '<p class="sub" style="margin:0">Encara no n\'hi ha. Es fa una còpia cada dia que desis dades (en queden 14).</p>'}
